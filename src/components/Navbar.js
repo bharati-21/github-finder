@@ -4,7 +4,7 @@ import {FaGithub} from 'react-icons/fa'
 
 export default function Navbar() {
     return (
-        <nav className='navbar bg-slate-900/[0.75] p-3 w-full shadow-lg'>
+        <nav className='navbar bg-slate-900 p-3 w-full shadow-lg'>
             <div className='flex-col justify-center align-center gap-5 max-w-screen-lg w-full m-auto sm:flex-row sm:justify-between'>
                 <h2 className='font-bold logo text-2xl  flex-none'>
                     <FaGithub className='inline pr-2.5 text-4xl'/> GitHub Finder 
